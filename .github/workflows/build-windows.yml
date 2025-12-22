@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: carbon-core-windows
-        path: target/release/carbon-core.exe
+        path: target/release/carbon.exe
