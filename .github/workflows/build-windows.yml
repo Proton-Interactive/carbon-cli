@@ -23,5 +23,5 @@ jobs:
     - name: Upload binary
       uses: actions/upload-artifact@v4
       with:
-        name: carbon-core-windows
+        name: carbon-windows
         path: target/release/carbon.exe
