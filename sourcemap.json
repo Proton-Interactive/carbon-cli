@@ -1,0 +1,19 @@
+{
+  "name": "Project",
+  "className": "DataModel",
+  "children": [
+    {
+      "name": "ServerScriptService",
+      "className": "ServerScriptService",
+      "children": [
+        {
+          "name": "Script",
+          "className": "Script",
+          "filePaths": [
+            "C:\\Users\\evere\\coding\\plugins\\zed\\carbon-v2\\carbon-core\\game\\ServerScriptService\\Script.server.luau"
+          ]
+        }
+      ]
+    }
+  ]
+}
