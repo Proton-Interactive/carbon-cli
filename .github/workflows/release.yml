@@ -4,6 +4,9 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build ${{ matrix.target }}
@@ -45,3 +48,4 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: ${{ matrix.bin }}
+        fail_on_unmatched_files: true
